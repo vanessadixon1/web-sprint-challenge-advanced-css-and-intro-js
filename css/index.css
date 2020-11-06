@@ -136,6 +136,18 @@ button:hover{
 }
 
 @media(max-width: 500px) {
+    nav {
+        width: 50%;
+    }
+    nav a {
+        font-size: 1.8rem;
+    }
+
+    nav a:first-child {
+
+        font-weight:bold;
+    }
+
     .title-container div{
         width: 79%
     }
